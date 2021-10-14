@@ -10,7 +10,7 @@ env:
   DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
   DUPLO_HOST: https://altoira.duplocloud.net
   DUPLO_TOKEN: ${{ secrets.ALTOIRA_DEMO_DUPLO_TOKEN }}
-  DUPLO_TENANT_ID: "a183548a-6a35-4bdf-9ba6-5b0eed073082"
+  DUPLO_TENANT_ID: "3e9502fc-aee3-4982-b5cb-f8cd4cbcb553"
 jobs:
   image-demoservice:
     runs-on: ubuntu-latest
